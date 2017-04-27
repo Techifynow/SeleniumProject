@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="crome Test">
+	<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="testCases.CreateAccount" />
+		</classes>
+	</test>
+	
+	<!-- <test name="firefox Test">
+	<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="parallelExample.TestCase1" />
+		</classes>
+	</test> -->
+</suite> 
